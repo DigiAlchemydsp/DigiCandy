@@ -13,6 +13,10 @@ press the combo again to remove it.
 No delay — it fires the moment the combo is pressed. Built for
 [elekloader](https://github.com/irpina/elekloader) and needs its `core` mod.
 
+> **Work in progress.** The mods build and lint against the stock OS but have
+> not been tested on hardware yet — expect rough edges, and see
+> [Known bugs](#known-bugs).
+
 ## What's here
 
 This repository ships **ready-built `.elemod` overlays** (`releases/`) and the
@@ -70,6 +74,13 @@ pixel for pixel. `--dither` uses Floyd-Steinberg instead of a hard threshold;
 `--invert` swaps ink and paper. Then build the folder with elekloader and patch
 it in. See [docs/BUILDING.md](docs/BUILDING.md) and
 [docs/TECHNICAL.md](docs/TECHNICAL.md).
+
+## Known bugs
+
+- **`YES` can re-open the overlay after you exit it.** After turning the overlay
+  off, a lone `YES` press sometimes toggles it straight back on. Workaround:
+  tap the modifier (`TRK` on the Digitakt / `MIDI` on the Digitone) **twice** to
+  clear the latch first, so `YES` on its own does nothing.
 
 ## Licence
 
