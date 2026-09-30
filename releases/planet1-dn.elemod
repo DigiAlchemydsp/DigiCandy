@@ -1,0 +1,277 @@
+{
+ "elemod": 2,
+ "id": "planet1",
+ "version": "1.0",
+ "title": "planet1",
+ "description": "Press MIDI+YES to overlay planet1.png (1 frame) on the live UI; press it again to remove it.",
+ "category": "Display",
+ "author": "DigiScreen",
+ "license": "GPL-2.0-or-later",
+ "target": {
+  "device": "digitone-mk1",
+  "product": "Digitone mk1",
+  "os": "1.43",
+  "syx_sha256": "c5a54cc05b921f2e4bd814834c5365c2a5aa01d7772a9a2961fac1c3095bf9aa",
+  "section3_sha256": "3831a477a2a22befb23c42e47e782853da49566ef5d0a1767fcf6c30e6767414",
+  "section3_len": 2732208
+ },
+ "sections": {
+  ".run": {
+   "align": 4,
+   "len": 1292,
+   "parts": [
+    [
+     "hex",
+     "202f00040c804052a6bc6600007a206f00084a1066000070222800080801000366000064202800040c800000000d6700000c0c80000000026600004c080100046600003e080100006700003c0c800000000d660000204aba00ac6700002a42b900000000223a009a468123c10000000060000014720123c1000000006000000842b900000000"
+    ],
+    [
+     "stock",
+     "0x40001cda",
+     8
+    ],
+    [
+     "hex",
+     "4ef940001ce261000022"
+    ],
+    [
+     "stock",
+     "0x4004f69e",
+     8
+    ],
+    [
+     "hex",
+     "4ef9400f8f0261000010"
+    ],
+    [
+     "stock",
+     "0x400ad2d2",
+     8
+    ],
+    [
+     "hex",
+     "4ef9400f8e844aba004667000040207940241a444a8867000034223a003a52810c810000000166000004428123c100000000e189e5890681000000002241203c0000010020d953806600fffa"
+    ],
+    [
+     "stock",
+     "0x4028c602",
+     16
+    ],
+    [
+     "hex",
+     "00014000007f5c0000040020005b5400401008000041740000000402005f000000200407007f60000000020200713000004002001075600000000100004101c007e00100007f103fe3c01080046b700013c00080007f100007e000800071000000000040007748000200004000417c0002000040007f400004008020005100000400002000555000040040200045000004000020007ffe000800001000088200080000100010ba000801001000108280080000100020fe0010000000004082001000027e0044e6001000002400809200100000240100fe001000007e1202"
+    ],
+    [
+     "stock",
+     "0x4024b57e",
+     10
+    ],
+    [
+     "hex",
+     "200000040400000020000000090000002000000408000000200ffc001000100023f003c0200000002c00003820000000200ffc064000000142fdfc00800000024eaaf1f1000000045e55e7f9200000185f2b8ff2180000215f873ff4840000435ff07fe5c200008f5fffffc9f100011f5fffffd3f880013f5fffff97fc80023f5fffff27fc40047e5fffff4ffe2008fe9ffff05fff1009febfffc48fff9011febfffc927ff8813fe83ff9257ffc823fcb9ffa2f3ffc427f8bcffa4f81fe427f2beff89ffcfe44fe4beffbbffe3f24fcab6ffabfffbf24f94baffbbfff9f24fbab4ff83fffdf29fb4bafff95ffdf99fbabcfffcafadf99fbcba7ffed755f99fbebd3ffeebedf99fbebebffed7f5f99fbebd1ffeebf9f99fbebecffef7fbf99fbebf67feeffbf99aaaaaaffefffbf99f9ebfed54fff3f995549547feaaf7f98a8aaa8aa8ffb55955408005555567f24014955000aaa2aa4a808002aa00455240008100005510a2200093000000010420108280011a4044200088000000000410048500002200081000800000060008080082000014001008008000002800100400500000840020020040000042004001004000000800800100400000204080008040800115010000404000004c020000204110001a040000184400003e9800400440a0009f20040002426200244000000140b040018000000020651006000000002c004038"
+    ],
+    [
+     "stock",
+     "0x4022e608",
+     12
+    ],
+    [
+     "hex",
+     "003f"
+    ],
+    [
+     "stock",
+     "0x40242d1e",
+     8
+    ],
+    [
+     "hex",
+     "00040100000020000004038001000000000401000000100000080400"
+    ],
+    [
+     "stock",
+     "0x4024b55c",
+     8
+    ],
+    [
+     "hex",
+     "5c0010000000000054000000007e00007400100000240002"
+    ],
+    [
+     "stock",
+     "0x4018ef06",
+     8
+    ],
+    [
+     "hex",
+     "60800800007e0008"
+    ],
+    [
+     "stock",
+     "0x4022b044",
+     8
+    ],
+    [
+     "hex",
+     "60003f000010"
+    ],
+    [
+     "stock",
+     "0x4018ea5e",
+     8
+    ],
+    [
+     "hex",
+     "0000100012002020000070003f00000000001000400400200000000184001000000064020200004007e0540c020000000f704810020000401bf80060010000003fec5080010000003ffc0000010000003f7cfe00008001002aac8200008001001554ba0000400200002c8200004002000008fe000020040200008200102004000000e6000010080000009200000c30000004fe000003c0000000"
+    ]
+   ]
+  }
+ },
+ "symbols": {
+  "mod_latch": [
+   ".run",
+   260
+  ],
+  "overlay": [
+   ".run",
+   256
+  ],
+  "digiscreen_draw": [
+   ".run",
+   184
+  ],
+  "frame_idx": [
+   ".run",
+   264
+  ],
+  "digiscreen_frames": [
+   ".run",
+   268
+  ],
+  "digiscreen_flush": [
+   ".run",
+   166
+  ],
+  "digiscreen_diff": [
+   ".run",
+   148
+  ],
+  "digiscreen_key": [
+   ".run",
+   0
+  ]
+ },
+ "exports": [
+  "digiscreen_diff",
+  "digiscreen_flush",
+  "digiscreen_key"
+ ],
+ "imports": [],
+ "weak": [],
+ "relocs": [
+  [
+   ".run",
+   96,
+   "abs32",
+   "sec:.run",
+   260
+  ],
+  [
+   ".run",
+   108,
+   "abs32",
+   "sec:.run",
+   256
+  ],
+  [
+   ".run",
+   120,
+   "abs32",
+   "sec:.run",
+   260
+  ],
+  [
+   ".run",
+   130,
+   "abs32",
+   "sec:.run",
+   260
+  ],
+  [
+   ".run",
+   224,
+   "abs32",
+   "sec:.run",
+   264
+  ],
+  [
+   ".run",
+   234,
+   "abs32",
+   "sec:.run",
+   268
+  ]
+ ],
+ "sites": [
+  {
+   "addr": "0x40001cda",
+   "len": 8,
+   "stock_sha256": "a354081ed6518144747e2531c83b96ff135f7d8f76ee6e8b600996701ed0a991",
+   "new": "4ef9000000004e71",
+   "kind": "code",
+   "relocs": [
+    [
+     2,
+     "abs32",
+     "sym:digiscreen_key",
+     0
+    ]
+   ]
+  },
+  {
+   "addr": "0x400f8efa",
+   "len": 8,
+   "stock_sha256": "7f71ef387fef9a7deabf4d87afadfcfcdb8ad0991443c88aeb048886bc0e527d",
+   "new": "4ef9000000004e71",
+   "kind": "code",
+   "relocs": [
+    [
+     2,
+     "abs32",
+     "sym:digiscreen_diff",
+     0
+    ]
+   ]
+  },
+  {
+   "addr": "0x400f8e7c",
+   "len": 8,
+   "stock_sha256": "1c3c4fb85f365a797cf975ce5f49f8ea1c1acd72e3fb4ba198a66660539c05b9",
+   "new": "4ef9000000004e71",
+   "kind": "code",
+   "relocs": [
+    [
+     2,
+     "abs32",
+     "sym:digiscreen_flush",
+     0
+    ]
+   ]
+  }
+ ],
+ "collections": {},
+ "contribute": [],
+ "copied": [],
+ "resources": {
+  "names": []
+ },
+ "requires": [
+  "core"
+ ],
+ "conflicts": [],
+ "build": {
+  "sources": {
+   "splash.s": "c04d21df4f78571ba44efdcc6647549aeeeb69862fa16e7447c770e34a1ab10d"
+  }
+ },
+ "signature": null
+}

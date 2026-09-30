@@ -1,0 +1,214 @@
+{
+ "elemod": 2,
+ "id": "mount",
+ "version": "1.0",
+ "title": "mount",
+ "description": "Press MIDI+YES to overlay mount.png (1 frame) on the live UI; press it again to remove it.",
+ "category": "Display",
+ "author": "DigiScreen",
+ "license": "GPL-2.0-or-later",
+ "target": {
+  "device": "digitone-mk1",
+  "product": "Digitone mk1",
+  "os": "1.43",
+  "syx_sha256": "c5a54cc05b921f2e4bd814834c5365c2a5aa01d7772a9a2961fac1c3095bf9aa",
+  "section3_sha256": "3831a477a2a22befb23c42e47e782853da49566ef5d0a1767fcf6c30e6767414",
+  "section3_len": 2732208
+ },
+ "sections": {
+  ".run": {
+   "align": 4,
+   "len": 1292,
+   "parts": [
+    [
+     "hex",
+     "202f00040c804052a6bc6600007a206f00084a1066000070222800080801000366000064202800040c800000000d6700000c0c80000000026600004c080100046600003e080100006700003c0c800000000d660000204aba00ac6700002a42b900000000223a009a468123c10000000060000014720123c1000000006000000842b900000000"
+    ],
+    [
+     "stock",
+     "0x40001cda",
+     8
+    ],
+    [
+     "hex",
+     "4ef940001ce261000022"
+    ],
+    [
+     "stock",
+     "0x4004f69e",
+     8
+    ],
+    [
+     "hex",
+     "4ef9400f8f0261000010"
+    ],
+    [
+     "stock",
+     "0x400ad2d2",
+     8
+    ],
+    [
+     "hex",
+     "4ef9400f8e844aba004667000040207940241a444a8867000034223a003a52810c810000000166000004428123c100000000e189e5890681000000002241203c0000010020d953806600fffa"
+    ],
+    [
+     "stock",
+     "0x4028c602",
+     14
+    ],
+    [
+     "hex",
+     "81000020aa2cabbd8180800a04865f3a41408040a82a2e7dc2a0c040108114f66360c062b22aadfdb2b0a06820849dfa5b50e0d0a02acdfdaaa8b0b2028149f65f56d0d8a02ae3fdaaaba8ac208477fa555554d4322ab3fdaaaaacaa308119f6555556d5380aacfdaaaaabaaaa445e7ad55555557862af3deabaaaaaac611796fd5df55d5752abcdeeeeaabeaae85de2f7fff57f55560bf5effffabfaaabe1f6f7fff5fbfd557de5fbfbfef7f7ffc1caf7efffebebfe0bddfbddffd7f7f01796ffabffefde62abbdffddffd71c645fba7fabfeee1c4aaf3dffdffcdc184117767ff7b8e8180aaf7dbfaf38d808845f7a7e3e3078882aab7dba3c307082811776761c2060882aaa7dba192041a0845efa57192040822aaafdaa898040408116f655898004482aacfdaac1c081428455fa55434080402aa9fdaac2e0c0408111f6556350c04a2aa5fdaabab8e500846dfa555756f1002ac5fdaeaaabb982814df65755555dc82a95fdafaaaaafc084adfa5b555555622b15fdaffabaaab8812df65ff57f55560a54fdbffffffaabe6aafa7fddfedfff0c167dbfebedef7004af767fdf57dec22c553dbb6eae7b8888abbaf6df5c711829159deb7ab8714892aec6d6e37060143055e5afe2e2410492abf2ddc3c00054211579b9c3822404aaaefaf0c10220144055b1f0c10a2144caabe670800220144115cd7081882004caaede6001a0245440559d2023002104caabba20020220144115bd2203022046caafb6004612201280553d020e102506aaab9a000c1a20528115dd0248102006aaaece220c104012005565000c0281452aabf2220c5284110115e5300c1280052aae86380854805080553d3c0d549105aaaa7a3c0c4480108114fd3c0d164445aaa9f63819544010805bfd3038014105caabfa3830554050411bfd38215c50056aabf63031754410a05bf52031dd414552b3f200215540103117e1103505400552a7c00031574050886f1e1c31d555055aae7f1e25554010292cff1e3700404558adff1e355480108c69ff5c355d010554abff1835d504502a2bff4021551005552bff50384100108f49ff0010550145551dff501d7500102b9cff404c5d040555ce7f10091500508ee71e508d55110555f7c0000dc100102bf7e1108f5500455567f240055d04108ecff50006150105559ff604065100502b3ffd0007551005567ffa4407dd00108efffd0405550545567ff640074480102a3ffd4006504005549ffa00061540508cdffd0406555105554ff6400477441028affd04865d4045596ffa00045440108aa7fd02065041055153f6070605405030b9fd0706575405657cfa078c1d4010c2ae7d079c154145955f36479084401108bfbd071a274006557f3a461aa5445402be7d0010815109557cf6003808401008b9fd04728840555573fa"
+    ]
+   ]
+  }
+ },
+ "symbols": {
+  "mod_latch": [
+   ".run",
+   260
+  ],
+  "overlay": [
+   ".run",
+   256
+  ],
+  "digiscreen_draw": [
+   ".run",
+   184
+  ],
+  "frame_idx": [
+   ".run",
+   264
+  ],
+  "digiscreen_frames": [
+   ".run",
+   268
+  ],
+  "digiscreen_flush": [
+   ".run",
+   166
+  ],
+  "digiscreen_diff": [
+   ".run",
+   148
+  ],
+  "digiscreen_key": [
+   ".run",
+   0
+  ]
+ },
+ "exports": [
+  "digiscreen_diff",
+  "digiscreen_flush",
+  "digiscreen_key"
+ ],
+ "imports": [],
+ "weak": [],
+ "relocs": [
+  [
+   ".run",
+   96,
+   "abs32",
+   "sec:.run",
+   260
+  ],
+  [
+   ".run",
+   108,
+   "abs32",
+   "sec:.run",
+   256
+  ],
+  [
+   ".run",
+   120,
+   "abs32",
+   "sec:.run",
+   260
+  ],
+  [
+   ".run",
+   130,
+   "abs32",
+   "sec:.run",
+   260
+  ],
+  [
+   ".run",
+   224,
+   "abs32",
+   "sec:.run",
+   264
+  ],
+  [
+   ".run",
+   234,
+   "abs32",
+   "sec:.run",
+   268
+  ]
+ ],
+ "sites": [
+  {
+   "addr": "0x40001cda",
+   "len": 8,
+   "stock_sha256": "a354081ed6518144747e2531c83b96ff135f7d8f76ee6e8b600996701ed0a991",
+   "new": "4ef9000000004e71",
+   "kind": "code",
+   "relocs": [
+    [
+     2,
+     "abs32",
+     "sym:digiscreen_key",
+     0
+    ]
+   ]
+  },
+  {
+   "addr": "0x400f8efa",
+   "len": 8,
+   "stock_sha256": "7f71ef387fef9a7deabf4d87afadfcfcdb8ad0991443c88aeb048886bc0e527d",
+   "new": "4ef9000000004e71",
+   "kind": "code",
+   "relocs": [
+    [
+     2,
+     "abs32",
+     "sym:digiscreen_diff",
+     0
+    ]
+   ]
+  },
+  {
+   "addr": "0x400f8e7c",
+   "len": 8,
+   "stock_sha256": "1c3c4fb85f365a797cf975ce5f49f8ea1c1acd72e3fb4ba198a66660539c05b9",
+   "new": "4ef9000000004e71",
+   "kind": "code",
+   "relocs": [
+    [
+     2,
+     "abs32",
+     "sym:digiscreen_flush",
+     0
+    ]
+   ]
+  }
+ ],
+ "collections": {},
+ "contribute": [],
+ "copied": [],
+ "resources": {
+  "names": []
+ },
+ "requires": [
+  "core"
+ ],
+ "conflicts": [],
+ "build": {
+  "sources": {
+   "splash.s": "bf1989edfe46e4ad7bf97ba49aa50a7ab84568f7665e6f29b618a1d3faa7e476"
+  }
+ },
+ "signature": null
+}

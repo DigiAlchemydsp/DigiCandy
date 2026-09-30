@@ -1,0 +1,20 @@
+# Normalise line endings to LF in the repository.
+* text=auto eol=lf
+
+# Text sources
+*.md   text eol=lf
+*.py   text eol=lf
+*.json text eol=lf
+*.s    text eol=lf
+*.ld   text eol=lf
+
+# Binary assets (never diff/merge as text)
+*.png    binary
+*.gif    binary
+*.bin    binary
+*.elemod binary
+*.syx    binary
+*.o      binary
+
+# Generated artefacts, excluded from GitHub language stats
+releases/*.elemod linguist-generated

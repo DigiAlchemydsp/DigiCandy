@@ -1,0 +1,29 @@
+# build outputs
+**/out/
+*.work/
+__pycache__/
+*.pyc
+
+# built mods and firmwares
+*.elemod
+# …except the shipped release artifacts
+!releases/*.elemod
+*.syx
+*.syx.json
+*.syx.map.json
+
+# firmware and anything derived from it: never commit (see NOTICE.md)
+*.snap
+plusdrive.img
+firmware/
+snapshots/
+section_*.bin
+main_os.bin
+
+# local-only working notes and the parked live/ fork: not published
+handoff.md
+live/
+
+# source images are not distributed (build your own from your own material)
+art/
+mods/

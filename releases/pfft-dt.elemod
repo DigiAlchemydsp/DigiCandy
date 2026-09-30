@@ -1,0 +1,335 @@
+{
+ "elemod": 2,
+ "id": "pfft",
+ "version": "1.0",
+ "title": "pfft",
+ "description": "Press TRK+YES to overlay pfft.png (1 frame) on the live UI; press it again to remove it.",
+ "category": "Display",
+ "author": "DigiScreen",
+ "license": "GPL-2.0-or-later",
+ "target": {
+  "device": "digitakt-mk1",
+  "product": "Digitakt mk1",
+  "os": "1.53",
+  "syx_sha256": "9bdd44bb6102fb25c143cfab97bc92b7a89c463f795d3112dce89771e29bcc92",
+  "section3_sha256": "4b47a9507758ca5669ca02ab2c0374d2c04c98aece445408295cc1dcb265c5df",
+  "section3_len": 2475584
+ },
+ "sections": {
+  ".run": {
+   "align": 4,
+   "len": 1292,
+   "parts": [
+    [
+     "hex",
+     "202f00040c804060fc286600007a206f00084a1066000070222800080801000366000064202800040c800000000c6700000c0c80000000026600004c080100046600003e080100006700003c0c800000000c660000204aba00ac6700002a42b900000000223a009a468123c10000000060000014720123c1000000006000000842b900000000"
+    ],
+    [
+     "stock",
+     "0x40001b7a",
+     8
+    ],
+    [
+     "hex",
+     "4ef940001b8261000022"
+    ],
+    [
+     "stock",
+     "0x40078784",
+     8
+    ],
+    [
+     "hex",
+     "4ef9400e60ea61000010"
+    ],
+    [
+     "stock",
+     "0x4003a638",
+     8
+    ],
+    [
+     "hex",
+     "4ef9400e606c4aba00466700004020794020d8f84a8867000034223a003a52810c810000000166000004428123c100000000e189e5890681000000002241203c0000010020d953806600fffa"
+    ],
+    [
+     "stock",
+     "0x4017c962",
+     14
+    ],
+    [
+     "stock",
+     "0x401be7a0",
+     8
+    ],
+    [
+     "hex",
+     "03800000000000060c00000000ff0001f0000000008100000000000000f500000000000000f500000000000000f1"
+    ],
+    [
+     "stock",
+     "0x401ad2c4",
+     10
+    ],
+    [
+     "hex",
+     "ffc0000000810000003c000000f5000001c0000000f500003e00000000ff0000c0000000008100000000000000f500000000000000f5"
+    ],
+    [
+     "stock",
+     "0x401ad2c4",
+     10
+    ],
+    [
+     "hex",
+     "0000000001fd00000000000001fd0000f0000000038100000800000003fd00007000000007fd0000807ffffc06ff000001fffffc0cbf000007fffff008ff00000fffffe000bf00003ffff00000ff"
+    ],
+    [
+     "stock",
+     "0x4022fac2",
+     10
+    ],
+    [
+     "hex",
+     "fe3ffff800000000f1fffff8000000008ffffff0730009f07fffff8fc3bffdfffffffe3f63bffcfffffff8ffe3fffcfffff003fde1fffcfffc000ffde1fffcfff8007ffde0fffcfef001fffdf0effcf8e003fffdf0effde0c00fff7de0eff9c0801fffbdc86ff800003fffddd06ff800007fff6d846ff80000ffffbd804ff00001ffffde805f840003ffffee80df180307fffff680fe701f0fffffff50fcc0ff1fffffffe8fb1bff1fffffffa3f677ff3fffffffefe5efff7fffffffefffdfff7ffffffeffffbffcffffffffffff7ff8ffffffff7fff7ff0fffffffffffeffe0fffffffefffeffc0fffffffffffdff80ffffffff3ffdff00fffffff0fffffe00ffffffcfffbffc00fffff7ff7fdff800ffffefffdfeff800fffffffffff3f000ffffffffbffc0000f9ffffffeffe0000fbffffffffff8000fbffffffdfff8c00bbfffffff7fe1ffeb1fffffffff83fff70fffffffffe7fff727ffffffffeefff717ffffffffde7ff793ffffffff2f7feb9bffffffff97bf8babffffffffc7bf0dabffffffffc39f1fdbffffffffc3de3fd3ffffffffe1cc7fd7fffffffff0e9ffe7fffffffff063fffffffffdfde067fffffffffeffc86fefffffffff7dd05feffffffffdbdc43fcffffffffeddc03fcfffffffff6dc03f8fffffffffbed03f0fffffffffdec83f0fffffffff6f641e0fffffffffbfb21e07ffffffffdfd85c0bffffffffefef580dfffffffff7f7600efffffffffbf7400f7ffffffffffb000f9ffffffffffc00000ffffffffff8000003ffffffffc00000007"
+    ],
+    [
+     "stock",
+     "0x4021c408",
+     8
+    ],
+    [
+     "hex",
+     "7fffff00000000000fffe000"
+    ],
+    [
+     "stock",
+     "0x40222452",
+     12
+    ],
+    [
+     "stock",
+     "0x40240648",
+     8
+    ],
+    [
+     "hex",
+     "000000000000000000000000000000000000000000000000"
+    ],
+    [
+     "stock",
+     "0x401faf78",
+     8
+    ],
+    [
+     "stock",
+     "0x401fa55c",
+     8
+    ],
+    [
+     "stock",
+     "0x401aa148",
+     10
+    ],
+    [
+     "hex",
+     "0000007c03000000000001fe3c00"
+    ],
+    [
+     "stock",
+     "0x401fa738",
+     8
+    ],
+    [
+     "hex",
+     "00000000fffe3e000000003f87fc01800000001ffff0fe0000000003"
+    ],
+    [
+     "stock",
+     "0x4020eea8",
+     10
+    ],
+    [
+     "stock",
+     "0x401fa91a",
+     8
+    ],
+    [
+     "stock",
+     "0x401e9c38",
+     8
+    ],
+    [
+     "stock",
+     "0x401f9102",
+     8
+    ],
+    [
+     "stock",
+     "0x401aa0b6",
+     8
+    ],
+    [
+     "hex",
+     "e0c00000000000009c380000000000004386"
+    ],
+    [
+     "stock",
+     "0x40240aca",
+     14
+    ],
+    [
+     "hex",
+     "0c0000000000000303c000000000001c003f8000000000e0"
+    ]
+   ]
+  }
+ },
+ "symbols": {
+  "mod_latch": [
+   ".run",
+   260
+  ],
+  "overlay": [
+   ".run",
+   256
+  ],
+  "digiscreen_draw": [
+   ".run",
+   184
+  ],
+  "frame_idx": [
+   ".run",
+   264
+  ],
+  "digiscreen_frames": [
+   ".run",
+   268
+  ],
+  "digiscreen_flush": [
+   ".run",
+   166
+  ],
+  "digiscreen_diff": [
+   ".run",
+   148
+  ],
+  "digiscreen_key": [
+   ".run",
+   0
+  ]
+ },
+ "exports": [
+  "digiscreen_diff",
+  "digiscreen_flush",
+  "digiscreen_key"
+ ],
+ "imports": [],
+ "weak": [],
+ "relocs": [
+  [
+   ".run",
+   96,
+   "abs32",
+   "sec:.run",
+   260
+  ],
+  [
+   ".run",
+   108,
+   "abs32",
+   "sec:.run",
+   256
+  ],
+  [
+   ".run",
+   120,
+   "abs32",
+   "sec:.run",
+   260
+  ],
+  [
+   ".run",
+   130,
+   "abs32",
+   "sec:.run",
+   260
+  ],
+  [
+   ".run",
+   224,
+   "abs32",
+   "sec:.run",
+   264
+  ],
+  [
+   ".run",
+   234,
+   "abs32",
+   "sec:.run",
+   268
+  ]
+ ],
+ "sites": [
+  {
+   "addr": "0x40001b7a",
+   "len": 8,
+   "stock_sha256": "a354081ed6518144747e2531c83b96ff135f7d8f76ee6e8b600996701ed0a991",
+   "new": "4ef9000000004e71",
+   "kind": "code",
+   "relocs": [
+    [
+     2,
+     "abs32",
+     "sym:digiscreen_key",
+     0
+    ]
+   ]
+  },
+  {
+   "addr": "0x400e60e2",
+   "len": 8,
+   "stock_sha256": "7f71ef387fef9a7deabf4d87afadfcfcdb8ad0991443c88aeb048886bc0e527d",
+   "new": "4ef9000000004e71",
+   "kind": "code",
+   "relocs": [
+    [
+     2,
+     "abs32",
+     "sym:digiscreen_diff",
+     0
+    ]
+   ]
+  },
+  {
+   "addr": "0x400e6064",
+   "len": 8,
+   "stock_sha256": "1c3c4fb85f365a797cf975ce5f49f8ea1c1acd72e3fb4ba198a66660539c05b9",
+   "new": "4ef9000000004e71",
+   "kind": "code",
+   "relocs": [
+    [
+     2,
+     "abs32",
+     "sym:digiscreen_flush",
+     0
+    ]
+   ]
+  }
+ ],
+ "collections": {},
+ "contribute": [],
+ "copied": [],
+ "resources": {
+  "names": []
+ },
+ "requires": [
+  "core"
+ ],
+ "conflicts": [],
+ "build": {
+  "sources": {
+   "splash.s": "f24b876d11af42e90cbb36213cfbdbba4a3c04e3297c592665ae0aab0b724da4"
+  }
+ },
+ "signature": null
+}
