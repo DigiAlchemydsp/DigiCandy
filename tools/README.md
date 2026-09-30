@@ -1,5 +1,14 @@
 # tools
 
+These tools build **Display** overlays: the generated mod hooks the
+`queue_send` key queue and the `panel_diff` / `panel_flush` presents to toggle a
+full-panel image over the **live UI** (`"category": "Display"`, combo
+`TRK+YES` / `MIDI+YES`).
+
+They are **not** the DigiSplash boot-splash toolchain. DigiSplash's
+`make-bootanim` emits `"category": "Boot"` mods that draw over the *intro*;
+this repo's tools never touch the intro sites.
+
 | | |
 |---|---|
 | `make_machine.py` | one image -> one mod folder (`mod.json`, `splash.s`, `frames.bin`, `README.md`) |

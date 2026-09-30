@@ -1,5 +1,9 @@
 # Building DigiScreen
 
+Generation here makes **Display** overlay mods (`"category": "Display"`) that
+hook the key queue and panel presents — not DigiSplash's `"category": "Boot"`
+intro splashes.
+
 ## What you need
 
 - **Python 3** with Pillow (`python -m pip install pillow`) — for the generator.
