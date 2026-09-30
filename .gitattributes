@@ -15,6 +15,7 @@
 *.elemod binary
 *.syx    binary
 *.o      binary
+*.zip    binary
 
 # Generated artefacts, excluded from GitHub language stats
 releases/*.elemod linguist-generated

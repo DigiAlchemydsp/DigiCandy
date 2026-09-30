@@ -22,6 +22,10 @@ This repository ships **ready-built `.elemod` overlays** (`releases/`) and the
 **tools** to build your own from your own images. It does **not** distribute
 source images or GIFs — see [NOTICE.md](NOTICE.md) for the terms.
 
+Grab the packaged downloads from the
+[**Releases**](https://github.com/DigiAlchemydsp/DigiCandy/releases) page
+(`digicandy-v1.0`) or use the `.elemod`s in [`releases/`](releases) directly.
+
 | release (`-dt` / `-dn`) | frames |
 |---|---|
 | `planet1`, `catbooting`, `mount`, `pfft` | 1 |
@@ -57,6 +61,7 @@ releases/<name>-<dt|dn>.elemod   ready-built overlays
 tools/make_machine.py            image -> mod folder
 tools/gen_all.py                 regenerate every mod from a local art/ tree
 tools/build_all.py               build every local mod with elekloader
+docs/INSTALLING.md               patch, flash and recovery
 docs/TECHNICAL.md                the hooks, records and addresses
 docs/BUILDING.md                 toolchain and build steps
 ```
@@ -64,7 +69,7 @@ docs/BUILDING.md                 toolchain and build steps
 ## Use a release
 
 Patch a stock OS with `core` and the `.elemod`, then flash it — see
-[docs/BUILDING.md](docs/BUILDING.md):
+[docs/INSTALLING.md](docs/INSTALLING.md):
 
 ```sh
 cd elekloader
