@@ -13,9 +13,8 @@ press the combo again to remove it.
 No delay — it fires the moment the combo is pressed. Built for
 [elekloader](https://github.com/irpina/elekloader) and needs its `core` mod.
 
-> **Work in progress.** The mods build and lint against the stock OS but have
-> not been tested on hardware yet — expect rough edges, and see
-> [Known bugs](#known-bugs).
+> **Work in progress.** Tested on real hardware — expect the occasional rough
+> edge, and see [Known bugs](#known-bugs).
 
 ## What's here
 
@@ -36,6 +35,20 @@ source images or GIFs — see [NOTICE.md](NOTICE.md) for the terms.
 
 `-dt` is Digitakt mk1, `-dn` is Digitone mk1 / Keys. Animated overlays advance
 one frame per panel present.
+
+## Previews
+
+The same graphics, captured on the panel (from the
+[DigiSplash](https://github.com/DigiAlchemydsp/DigiSplash) project):
+
+![aba](https://raw.githubusercontent.com/DigiAlchemydsp/DigiSplash/main/releases/screenshots/aba-bootanim.gif)
+![digitrash](https://raw.githubusercontent.com/DigiAlchemydsp/DigiSplash/main/releases/screenshots/digitrash.gif)
+![bzme](https://raw.githubusercontent.com/DigiAlchemydsp/DigiSplash/main/releases/screenshots/bzme.gif)
+![loox](https://raw.githubusercontent.com/DigiAlchemydsp/DigiSplash/main/releases/screenshots/loox.gif)
+![tussy](https://raw.githubusercontent.com/DigiAlchemydsp/DigiSplash/main/releases/screenshots/tussy.gif)
+![reach](https://raw.githubusercontent.com/DigiAlchemydsp/DigiSplash/main/releases/screenshots/reach.gif)
+![claw](https://raw.githubusercontent.com/DigiAlchemydsp/DigiSplash/main/releases/screenshots/claw.gif)
+![tidemoon](https://raw.githubusercontent.com/DigiAlchemydsp/DigiSplash/main/releases/screenshots/tidemoon.gif)
 
 ## Layout
 

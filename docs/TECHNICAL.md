@@ -76,8 +76,8 @@ symbol addresses).
 
 ## Status
 
-Built and linted against the Digitakt 1.53 stock. Not run on hardware or in an
-emulator. The key-record layout is shared Elektron UI framework behaviour
+Built and linted against the Digitakt 1.53 stock, and tested on hardware. The
+key-record layout is shared Elektron UI framework behaviour
 (documented for Digitakt II in `digiemu-main/emu/uitrace.py`), and the runtime
 key codes come from the measured device maps in `digiemu-main/devices/`.
 
