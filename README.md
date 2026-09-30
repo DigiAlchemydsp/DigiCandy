@@ -97,8 +97,8 @@ it in. See [docs/BUILDING.md](docs/BUILDING.md) and
 
 - **Long-press the modifier** (`TRK` on the Digitakt / `MIDI` on the Digitone)
   to play the animation smoothly.
-- **Turn a knob to scrub frames.** On a MIDI track, open the **Filt** page and
-  move an active knob to "dial in" the exact animation frame.
+- **Turn a knob to advance frames.** On a MIDI track, open the **Filt** page
+  and move an active knob to step the animation along.
 
 ## Known bugs
 
